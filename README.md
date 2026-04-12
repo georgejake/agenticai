@@ -1,9 +1,9 @@
 # agenticai
 Learn more about various agentic ai systems
 ### UV Commands
-uv init
-uv venv [Activate the virtual environment .\.venv\Scripts\activate]
-uv add python-dotenv [this is important to read the GEMINI_API_KEY]
+- `uv init`
+- `uv venv` [Activate the virtual environment `.\.venv\Scripts\activate`]
+- `uv add python-dotenv` [this is important to read the `GEMINI_API_KEY`]
 
 ## Email Agent Flow
 1. Load environment variables from `.env` using `dotenv.load_dotenv()`.
