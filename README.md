@@ -4,6 +4,7 @@ Learn more about various agentic ai systems
 - `uv init`
 - `uv venv` [Activate the virtual environment `.\.venv\Scripts\activate`]
 - `uv add python-dotenv` [this is important to read the `GEMINI_API_KEY`]
+- `uv add rank-bm25` [for adding bm25 ranking algo]
 
 ## Email Agent Flow
 1. Load environment variables from `.env` using `dotenv.load_dotenv()`.
